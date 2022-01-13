@@ -1,4 +1,7 @@
-
+.everything{
+    background-color: #73a857;  
+    
+}
 .container {  display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -8,6 +11,8 @@
     justify-content: stretch;
     justify-items: stretch;
     align-items: stretch;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     height: 100vh;
   }
   
